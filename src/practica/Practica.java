@@ -75,12 +75,12 @@ public class Practica implements Runnable {
         
         System.out.println((tiempo_final/10000000) + " milisegundos");
         
-//        for(int i = 0; i < matriz.length; i++){
-//            for(int j = 0; j < matriz[0].length; j++){
-//                System.out.print(matriz[i][j] +" ");
-//            }
-//            System.out.println();
-//        }  
+        for(int i = 0; i < matriz.length; i++){
+            for(int j = 0; j < matriz[0].length; j++){
+                System.out.print(matriz[i][j] +" ");
+            }
+            System.out.println();
+        }  
     }
     
 }
